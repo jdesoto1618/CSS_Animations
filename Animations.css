@@ -58,7 +58,6 @@ body  {
   animation-name: MediumCloud;
   animation-play-state: running;
   animation-iteration-count: infinite;
-  /*animation-delay: 10s;*/
   animation-duration: 50s;
   position: absolute;
   margin-top: 100px;
@@ -77,8 +76,8 @@ body  {
 }
 
 .mountain {
-  width: 1920px;
-  height: 500px;
+  width: 100%;
+  height: auto;
   position: fixed;
   background-size: cover;
   margin-bottom: -25px;
@@ -99,10 +98,9 @@ body  {
     top: 0;
     left: 0;
     position: absolute;
-    width: 3000px;
+    width: 100%;
     animation-name: BigAssSlowCloud;
     animation-play-state: running;
-    /*animation-iteration-count: infinite;*/
     animation-duration: 30s;
     animation-fill-mode: backwards;
   }
@@ -135,7 +133,7 @@ body  {
 }
 
 .Fire {
-  position: absolute;
+  position: fixed;
   margin-left: 1050px;
   margin-top: 425px;
   height: 100px;
@@ -148,7 +146,7 @@ body  {
 
 .Tornado {
   position: absolute;
-  height: 925px;
+  height: 100%;
   animation-name: tornado;
   animation-play-state: running;
   animation-fill-mode: both;
